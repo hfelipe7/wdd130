@@ -13,9 +13,15 @@ header {
 }
 
 .logo {
-    max-width: 85px; 
+    max-width: 80px; 
     height: auto;
 }
+
+.icon {
+    width: 80px; 
+    height: auto; 
+}
+
 
 #hero-msg h1 {
     color: black; 
