@@ -1,10 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: #fcfbfb; 
+    color: #333; 
+    font-family: 'Noto Sans'; 
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+}
+.home-title, .msg h2 {
+    font-family: 'Gluten'; 
+    font-size: 2em; 
+}
+
+.home-title {
+margin-top: 10px;
+
+}
+
+body {
+    font-family: 'Noto Sans',  sans-serif; 
+}
 
 header {
     max-width: 985px; 
     margin: 0 auto;      
     padding: 20px;  
-        
-  }
+    background-color: rgba(20, 30, 13, 0.7); 
+    color: #fff;
+}
 
 #content {
     max-width: 1600px;
@@ -12,59 +36,24 @@ header {
     padding: 0 20px;
 }
 
+#logo_link {
+    padding-top: 5px;
+}
+
 .logo {
     max-width: 80px; 
     height: auto;
 }
 
-.icon {
-    width: 80px; 
-    height: auto; 
-}
-
-
-#hero-msg h1 {
-    color: black; 
-}
-
-#hero-msg h4 {
-    color: black; 
-}
-
-
-#hero-box {
-    text-align: center;
+nav {
+    text-align: center; /* Center nav links */
 }
 
 nav a {
+    color: #ffffff; 
     text-align: center;
-}
-
-#hero-msg h1, #hero-msg h4 {
-    text-align: center;
-}
-
-.button-box {
-    text-align: center;
-}
-
-main section {
-    text-align: center;
-}
-
-#background {
-    height: 725px;
-}
-
-
-
-body {
-    background-color: #fcfbfb; 
-    color: #333; 
-
-header {
-    background-color: rgba(20, 30, 13, 0.7); 
-    color: #fff;
+    padding: 35px;
+    text-decoration: none;
 }
 
 nav a:hover {
@@ -72,9 +61,49 @@ nav a:hover {
     color: #fff; 
 }
 
+#hero {
+    text-align: center; /* Center hero section */
+}
+
+#hero-box {
+    margin: 0 auto;
+}
+
+#hero-msg h1 {
+    color: black; 
+    font-family: 'Gluten', 'Comic Sans MS', cursive; 
+    font-size: 2em; 
+}
+
+#hero-msg h4 {
+    color: black; 
+    text-align: center; /* Center h4 text */
+}
+
+.button-box {
+    text-align: center; /* Center button box */
+}
+
 .book, .join {
-    background-color: #f4a261; 
-    color: #fff; 
+    display: inline-block; /* Allow for width and margin */
+    padding: 15px 30px; 
+    font-size: 18px; 
+    background-color: #d9c2a3; 
+    color: #0c0c0c; 
+    border-radius: 5px;
+    margin: 10px auto; /* Center buttons and add top margin */
+    text-decoration: none; 
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+main section img {
+    box-sizing: border-box;
 }
 
 .book:hover, .join:hover {
@@ -82,100 +111,85 @@ nav a:hover {
     color: #fff; 
 }
 
-#background {
-    background-color: #264653; 
-    color: #fff; 
+main {
+    text-align: center; /* Center main section text */
+}
+
+section {
+    margin: 20px 0; /* Space between sections */
+}
+
+.icon {
+    width: 80px; 
+    height: auto; 
 }
 
 .msg {
-    background-color: #2a9d8f; 
-    color: #fff;
-}
-
-footer {
-    background-color: #1d3557; 
-    color: #fff;
-}
-
-
-#background {
-    height: 625px;    
     max-width: 985px;  
     margin: 0 auto;    
-    display: block;    
+    padding: 35px; 
+    background-color: #6f7364; 
+    color: #fff; 
+    line-height: 1.5em;
 }
 
-
-.mountains {
-    width: 30%;        
-    height: auto;      
-    margin-left: 307px; 
-}
-
-
-
-         
-
-nav a {
+.msg h2, .msg p {
     color: #ffffff; 
-   
-}
-
-
-
-.home-title {
-    color: #ffffff; 
-}
-
-h4 {
-    color: #ffffff; 
-}
-
-
-.book, .join {
-    color: #ffffff; 
-}
-
-
-/* Message section */
-.msg h2 {
-    color: #ffffff; 
+    margin: 0; /* Remove default margins */
 }
 
 .msg p {
-    color: #ffffff; 
-}
+    padding-bottom: 15px;
 
-.mountains {
-    margin-bottom: 20px; 
-}
-
-.msg {
-    max-width: 985px;  
-    margin: 0 auto;    
 }
 
 
 footer {
-    color: #ffdd57; 
+    max-width: 955px;  
+
+      
+    padding: 25px 50px; 
+    background-color: #1d3557; 
+    color: #fff;
+    margin: 40px auto; 
+   
 }
 
 footer a {
     color: #ffdd57;
+    text-decoration: none;
+   
+    
 }
-
 
 footer p {
-    margin: 20px 0; 
-}
-
-footer {
-    max-width: 985px;  
-    margin: 0 auto;    
+    margin: 15px auto; 
 }
 
 footer p a:hover {
-    
     font-weight: bold;           
     font-size: 1.4em
+    
+  
+}
+
+.mountains {
+    width: 30%;        
+    height: auto;      
+    margin: 80px auto; 
+    margin-left: -570px; 
+}
+
+#background {
+    height: 625px;    
+    max-width: 1055px;  
+    margin: 80px auto;    
+    
+    background-color: #264653;
+
+}
+
+.social img {
+
+    padding-top: 15px;
 }
